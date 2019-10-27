@@ -15,7 +15,10 @@
         android:padding="16dp"
         android:text="0"
         android:textAlignment="textEnd"
-        android:textSize="42sp" />
+        android:textSize="42sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
 
     <Button
