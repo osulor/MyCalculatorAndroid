@@ -39,7 +39,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:onClick="onClick"
-        android:text="C"
+        android:text= "&#9003;"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/eight_button"
         app:layout_constraintEnd_toStartOf="@+id/remainder_button"

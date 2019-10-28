@@ -35,7 +35,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:onClick="onClick"
-        android:text="C"
+        android:text="&#9003;"
         android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/remainder_button"
         app:layout_constraintHorizontal_bias="0.5"

@@ -50,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+
     private void calculate(){
 
         secondValue = Float.parseFloat(answerTextView.getText().toString());
@@ -78,8 +80,6 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case SINUS:
-              //  secondValue = Float.parseFloat(answerTextView.getText().toString().substring(3));
-               // Log.d("value", "calculate: " + secondValue);
                  answerValue =(float) Math.sin(Math.toRadians(secondValue));
                 break;
 
@@ -100,9 +100,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void addText(String value){
-        answerTextView.setText(value);
-    }
 
     private void addNumber(int value){
         if(answerTextView.getText().equals("0")){
@@ -146,7 +143,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.sin_button:
 
                 setOperator(SINUS);
-               // addText("sin ");
 
                 break;
 
